@@ -59,7 +59,7 @@ public class Main {
 
         long endTime = System.nanoTime();
         long duration = (endTime - startTime);
-        System.out.println("Duration : " + duration / Math.pow(10, 6));
+        System.out.println("Duration : " + duration / Math.pow(10, 6) + " ms");
 
     }
 }
